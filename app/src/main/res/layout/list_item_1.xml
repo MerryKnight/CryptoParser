@@ -12,27 +12,30 @@
 
         <TextView
             android:id="@+id/tvData1"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:gravity="center|center_horizontal|center_vertical"
-            android:text="TextView"
-            android:textStyle="bold" />
+            android:gravity="center"
+            android:text="Название"
+            android:textStyle="bold"
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/tvData2"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:gravity="center|center_horizontal|center_vertical"
-            android:text="TextView" />
+            android:gravity="center"
+            android:text="Цена"
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/tvData3"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:gravity="center|center_horizontal|center_vertical"
-            android:text="TextView" />
+            android:gravity="center"
+            android:text="Капитализация"
+            android:textSize="16sp" />
     </TableRow>
 </TableLayout>

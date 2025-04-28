@@ -20,6 +20,7 @@ import org.jsoup.select.Elements;
 
 import java.io.IOException;
 import java.lang.reflect.Type;
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -82,7 +83,10 @@ public class ExchangeFragment extends Fragment {
                         ListItemClass item = new ListItemClass();
                         item.setData_1(crypto.name);
                         item.setData_2(String.valueOf(crypto.current_price));
-                        item.setData_3(String.valueOf(crypto.market_cap));
+                        DecimalFormat formatter = new DecimalFormat("#,##0.00");
+                        String formattedMarketCap = "$" + formatter.format(crypto.market_cap);
+                        item.setData_3(formattedMarketCap);
+
                         arrayList.add(item);
                     }
                     if (isAdded()) {
