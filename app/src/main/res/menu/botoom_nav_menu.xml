@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white">
+    <item
+        android:id="@+id/loan_calc"
+        android:icon="@drawable/ic_loan"
+        android:title="@string/loan_calculator" />
+    <item
+        android:id="@+id/exchange_rate"
+        android:icon="@drawable/ic_exchange_rate"
+        android:title="@string/exchange_rate" />
+    <item
+        android:id="@+id/deposit_calc"
+        android:icon="@drawable/ic_deposit"
+        android:title="@string/deposit_calcualtor" />
+</menu>
